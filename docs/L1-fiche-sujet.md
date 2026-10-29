@@ -5,14 +5,14 @@
 **Dépôt Git :** https://github.com/MM95w/aws-3tier-infra
 
 ## Application retenue
-Projet open source `aws-samples/aws-three-tier-web-architecture-workshop`
-(React, Node.js, MySQL), licence MIT-0. Seul le code applicatif est repris,
-toute l'infrastructure est écrite en Terraform.
+StockFlow, gestion de stock et de commandes (source : github.com/rwxvishali/stockflow-inventory).
+Rôles Admin / Manager / Staff, commandes de vente et d'achat avec ajustement atomique du stock,
+alertes de stock bas, tableau de bord.
 
 ## Composants
-- Front React servi par Nginx
-- API Node.js
-- Base MySQL sur RDS
+- Front : React 18 + TypeScript + Vite (fichiers statiques servis par Nginx)
+- API : Node.js + Express + TypeScript, authentification JWT
+- Base : PostgreSQL via Prisma, hébergée sur Amazon RDS
 
 ## Objectifs non fonctionnels
 | Objectif | Cible |
