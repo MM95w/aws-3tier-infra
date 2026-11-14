@@ -4,7 +4,6 @@ A production-style full-stack application for small retailers and warehouses to 
 
 **Tech stack:** React + TypeScript + Tailwind (frontend) · Node.js + Express + TypeScript (backend) · PostgreSQL + Prisma (database) · JWT authentication with role-based authorization.
 
-> Built as a real, defensible portfolio project — every feature is implemented, not mocked.
 
 ---
 
